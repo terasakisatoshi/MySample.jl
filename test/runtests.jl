@@ -36,7 +36,7 @@ end
 
 @testset "access array row/col direction" begin
     Random.seed!(1234);
-    N = 50000
+    N = 10000
     A, b, c = preparedata(N)
 
     res_rows = @timed access_rows!(A, b, c)
