@@ -29,7 +29,7 @@ generate(t, "MySample")
 
 ```
 
-If you use git HTTPS protocol, set argument `ssh=false`.
+If you use git with HTTPS protocol, set argument `ssh=false`.
 
 - Run this script:
 
@@ -39,9 +39,9 @@ $ julia initialize.jl
 
 `~/.julia/dev/MySample` will be generated.
 
-- Note that, `MySample` will be added default julia environment which means you can use `using MySample` without doing `pkg>activate .`, `using .MySample` or something like that. Some says this feature is (in)convenient.
+- Note that, `MySample` will be added default julia environment which means you can use `using MySample` without doing `pkg>activate .`, `using .MySample` or something like that. Some will says this feature is (in)convenient.
 
-  - If you would like to move `MySample` to another directory, you shold do `pkg> rm MySample`
+  - If you would like to move `MySample` to another directory, you shold do `pkg> rm MySample` in advance.
 
 ## manage repository on your GitHub
 
