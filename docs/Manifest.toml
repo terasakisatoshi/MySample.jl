@@ -46,6 +46,12 @@ uuid = "d6f4376e-aef5-505a-96c1-9c027394607a"
 [[Mmap]]
 uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 
+[[MySample]]
+deps = ["Random"]
+path = "/Users/terasakisatoshi/.julia/dev/MySample"
+uuid = "c5543f94-2002-5822-a78e-be88d6e33d9d"
+version = "0.1.0"
+
 [[Pkg]]
 deps = ["Dates", "LibGit2", "Markdown", "Printf", "REPL", "Random", "SHA", "UUIDs"]
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"

@@ -1,8 +1,8 @@
-# RPIDemos.jl
+# MySample.jl
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [RPIDemos]
+Modules = [MySample]
 ```
