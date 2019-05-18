@@ -8,8 +8,8 @@ makedocs(;
     ],
     repo="https://github.com/terasakisatoshi/MySample.jl/blob/{commit}{path}#L{line}",
     sitename="MySample.jl",
-    authors="SatoshiTerasaki",
-    assets=[],
+    authors="SatoshiTerasaki <terasakisatoshi.math@gmail.com>",
+    assets=String[],
 )
 
 deploydocs(;
