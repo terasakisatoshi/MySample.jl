@@ -18,13 +18,13 @@ Make julia script to generate package as follow:
 #initialize.jl
 using PkgTemplates
 
-t = Template(
+t = Template(;
         ssh=true,
         plugins=[
               TravisCI(),
               Codecov(),
-              Coveralls(),
-            ]
+              GitHubPages(),
+            ],
     )
 
 generate(t, "MySample")
